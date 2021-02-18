@@ -29,8 +29,8 @@ let cookiesArr = [], cookie = '', message;
 let helpAuthor = true;
 const randomCount = $.isNode() ? 20 : 5;
 const inviteCodes = [
-  `YFjh6Vll-l3zb9cCf_U@aURoM7PtY_Q@eU9YL5XqGLxSmRSAkwxR@eU9YaO7jMvwh-W_VzyUX0Q@eU9YaurkY69zoj3UniVAgg@eU9YaOnjYK4j-GvWmXIWhA@eU9YMZ_gPpRurC-foglg`,
-  `-4msulYas0O2JsRhE-2TA5XZmBQ@eU9Yar_mb_9z92_WmXNG0w@eU9YaO7jMvwh-W_VzyUX0Q@eU9YaurkY69zoj3UniVAgg@eU9YaOnjYK4j-GvWmXIWhA`
+  `IRowZe-0Z_w782vUz3Ab&eU9YBb72NJtnozS3gjJL&eU9YJbfOM5pMtRqCgRFl&ZE9JLoT4AZ5bjT-gtRty&eU9YD6TEPb58kzGDqhZa&RHxPbe2zZ_0n&eU9YHanNIJ1jlyiomgBN&eU9YG6nvHaRUpR28mjtm&eU9YEozuI4Z6oi6LigFW&eU9YNbP4E5RDrCSJuiVm&eU9YOIjNHJlVsTymlw1V`,
+  `IRowZe-0Z_w782vUz3Ab&eU9YBb72NJtnozS3gjJL&eU9YJbfOM5pMtRqCgRFl&ZE9JLoT4AZ5bjT-gtRty&eU9YD6TEPb58kzGDqhZa&RHxPbe2zZ_0n&eU9YHanNIJ1jlyiomgBN&eU9YG6nvHaRUpR28mjtm&eU9YEozuI4Z6oi6LigFW&eU9YNbP4E5RDrCSJuiVm&eU9YOIjNHJlVsTymlw1V`
 ]
 if ($.isNode()) {
   Object.keys(jdCookieNode).forEach((item) => {
